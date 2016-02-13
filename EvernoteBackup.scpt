@@ -8,8 +8,11 @@ set dayOfDate to (day) of (current date)
 
 set currentDate to (yearOfDate & "-" & monthOfDate & "-" & dayOfDate)
 
--- Change the path below to the location you want the notes to be exported
-set filePath to "/Your/Custom/Path/evernote-backup/" & currentDate & " - Evernote.enex"
+-- Change save_path to any other directory on your computer. By default this
+-- script stores the .enex file in the same directory as the script.
+set save_path to do shell script "pwd"
+
+set filePath to save_path & "/" & currentDate & " - Evernote.enex"
 
 with timeout of (30 * 60) seconds
 	tell application "Evernote"
