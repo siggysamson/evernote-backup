@@ -8,6 +8,6 @@ Please note: For this script to work properly, you must use the version of Evern
 This script is storing the compressed .enex file in the location you are running the script from. You can change this location by updating the "save_path" variable.
 
 Run this script by opening the terminal, navigating to the folder the script is stored in and then execute:
-```osascript EvernoteBackup.scpt```
+```osascript backup.scpt```
 
 Tested with Evernote version 6.6.1
