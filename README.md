@@ -10,4 +10,4 @@ This script is storing the compressed .enex file in the location you are running
 Run this script by opening the terminal, navigating to the folder the script is stored in and then execute:
 ```osascript backup.scpt```
 
-Tested with Evernote version 6.6.1
+Tested with Evernote version 6.10.0
